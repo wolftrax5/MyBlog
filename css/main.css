@@ -33,8 +33,53 @@ header {
   background-color: var(--color-darkgray);
   display: grid;
   grid-template-rows: 1fr 8fr 1fr;
+  justify-items: center;
+  align-items: center;
 }
 header section {
-  justify-self: center;
   text-align: center;
+}
+nav section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+nav section span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  margin: auto;
+}
+
+.nav_icon_home {
+  background: url(../assets/fonts/home.svg) no-repeat top left;
+}
+.nav_icon_home:hover {
+  background: url(../assets/fonts/home_green.svg) no-repeat top left;
+}
+.nav_icon_profile {
+  background: url(../assets/fonts/profile.svg) no-repeat top left;
+}
+.nav_icon_profile:hover {
+  background: url(../assets/fonts/profile_green.svg) no-repeat top left;
+}
+.nav_icon_code {
+  background: url(../assets/fonts/code.svg) no-repeat top left;
+}
+.nav_icon_code:hover {
+  background: url(../assets/fonts/code_green.svg) no-repeat top left;
+}
+.nav_icon_contact {
+  background: url(../assets/fonts/contact.svg) no-repeat top left;
+}
+.nav_icon_contact:hover {
+  background: url(../assets/fonts/contact_green.svg) no-repeat top left;
+}
+.icon_toxic {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  margin: auto;
+  background: url(../assets/fonts/toxic.svg) no-repeat top left;
 }
