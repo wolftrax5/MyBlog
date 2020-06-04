@@ -48,7 +48,8 @@ nav section {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-nav section span {
+nav section span,
+.home_main_media span {
   display: block;
   width: 30px;
   height: 30px;
@@ -141,6 +142,35 @@ nav section span {
   justify-content: space-between;
   padding-top: 10px;
   padding-bottom: 20px;
+}
+.home_main_media div {
+  display: flex;
+  justify-content: center;
+}
+.home_main_media div a {
+  margin-left: 30px;
+}
+.nav_icon_twitter {
+  background: url(../assets/fonts/twitter.svg) no-repeat top left;
+}
+.nav_icon_twitter:hover {
+  background: url(../assets/fonts/twitter_green.svg) no-repeat top left;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  margin: auto;
+}
+.nav_icon_linkedin {
+  background: url(../assets/fonts/linkedin.svg) no-repeat top left;
+}
+.nav_icon_linkedin:hover {
+  background: url(../assets/fonts/linkedin_green.svg) no-repeat top left;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  margin: auto;
 }
 .home_main_media img {
   margin-bottom: 20px;
