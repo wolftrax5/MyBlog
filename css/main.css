@@ -8,20 +8,25 @@
   --side-bar-width: 75px;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 body {
+  font-family: "Josefin Sans", sans-serif;
   margin: 0;
   padding: 0;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  height: 100vh;
   background-color: var(--main-bg-color);
   color: var(--main-fnt-color);
   display: grid;
   grid-template-columns: var(--side-bar-width) 1fr;
 }
-
+.home-body {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
 a {
   text-decoration: none;
   display: inline;
@@ -49,7 +54,7 @@ nav section span {
   height: 30px;
   background-size: contain;
   margin: auto;
-  transition: background 0.2s linear;
+  transition: background 0s linear;
 }
 
 .nav_icon_home {
