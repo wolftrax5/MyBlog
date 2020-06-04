@@ -49,6 +49,7 @@ nav section span {
   height: 30px;
   background-size: contain;
   margin: auto;
+  transition: background 0.2s linear;
 }
 
 .nav_icon_home {
