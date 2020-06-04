@@ -173,6 +173,7 @@ nav section span,
   margin: auto;
 }
 .home_main_media img {
+  max-width: 300px;
   margin-bottom: 20px;
   padding: 10px;
 }
