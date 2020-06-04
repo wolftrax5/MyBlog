@@ -89,3 +89,35 @@ nav section span {
   margin: auto;
   background: url(../assets/fonts/toxic.svg) no-repeat top left;
 }
+.home_main {
+  display: grid;
+  grid-template-columns: 8fr 2fr;
+  background: url(../assets/img/cover.png) no-repeat center fixed;
+  background-size: cover;
+}
+.home_main_info {
+  place-self: center;
+}
+.home_main_info_text {
+  font-size: 70px;
+  margin: 0;
+}
+.home_main_info_text span {
+  color: var(--color-green);
+}
+.home_main_info_title em {
+  font-size: 18px;
+  color: gray;
+}
+.home_main_media {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.home_main_media img {
+  margin-bottom: 20px;
+  padding: 10px;
+}
