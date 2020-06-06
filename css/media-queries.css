@@ -1,0 +1,24 @@
+@media (max-width: 950px) {
+  body {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr var(--side-bar-width);
+    grid-template-areas:
+      "main"
+      "header";
+  }
+  header {
+    width: 100%;
+    height: var(--side-bar-width);
+    grid-template-rows: var(--side-bar-width);
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  nav {
+    display: flex;
+  }
+  nav section {
+    margin-right: 20px;
+  }
+  .home_main {
+    font-size: 12px;
+  }
+}

@@ -48,6 +48,6 @@ async function cachesResponse(request) {
 }
 async function updateCache(request) {
     const cache = await caches.open(VERSION);
-    const res = await cache.match(request);
-    return cache.put(request, res);
+    const response = await fetch(request);
+    return cache.put(request, response);
 }

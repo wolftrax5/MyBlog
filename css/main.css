@@ -19,6 +19,7 @@ body {
   color: var(--main-fnt-color);
   display: grid;
   grid-template-columns: var(--side-bar-width) 1fr;
+  grid-template-areas: "header main";
 }
 .home-body {
   position: fixed;
@@ -36,6 +37,7 @@ header {
   width: var(--side-bar-width);
   height: 100%;
   background-color: var(--color-darkgray);
+  grid-area: header;
   display: grid;
   grid-template-rows: 1fr 8fr 1fr;
   justify-items: center;
@@ -91,6 +93,7 @@ nav section span,
   background: url(../assets/fonts/toxic.svg) no-repeat top left;
 }
 .home_main {
+  font-size: 18px;
   display: grid;
   grid-template-columns: 8fr 2fr;
   background: url(../assets/img/cover.png) no-repeat center fixed;
@@ -100,14 +103,14 @@ nav section span,
   place-self: center;
 }
 .home_main_info_text {
-  font-size: 70px;
+  font-size: 4em;
   margin: 0;
 }
 .home_main_info_text span {
   color: var(--color-green);
 }
 .home_main_info_title em {
-  font-size: 18px;
+  font-size: 1em;
   color: gray;
 }
 .home_main_button {
@@ -173,7 +176,7 @@ nav section span,
   margin: auto;
 }
 .home_main_media img {
-  max-width: 300px;
+  max-width: 250px;
   margin-bottom: 20px;
   padding: 10px;
 }
