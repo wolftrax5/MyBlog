@@ -4,7 +4,7 @@
   "description": "maketado de un sitio web",
   "main": "src/index.js",
   "scripts": {
-    "start": "live-server",
+    "start": "npx live-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
